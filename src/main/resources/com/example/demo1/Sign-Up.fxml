@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0"
+            prefWidth="900.0" style="-fx-background-color: #2E3348;" xmlns="http://javafx.com/javafx/21"
+            xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo1.SignUpController">
+    <AnchorPane layoutY="101.0" prefHeight="498.0" prefWidth="900.0" style="-fx-background-color: fafafa;">
+        <TextField fx:id="loginField" layoutX="252.0" layoutY="249.0" prefHeight="31.0" prefWidth="393.0"
+                   promptText="Придумайте логин">
+            <font>
+                <Font size="17.0"/>
+            </font>
+        </TextField>
+        <Label layoutX="333.0" layoutY="14.0" prefHeight="66.0" prefWidth="232.0" text="Регистрация"
+               textFill="#5e5e5e">
+            <font>
+                <Font name="Lobster Regular" size="39.0"/>
+            </font>
+        </Label>
+        <Button fx:id="authSignUpButton" layoutX="329.0" layoutY="368.0" mnemonicParsing="false" prefHeight="47.0"
+                prefWidth="239.0" style="-fx-background-color: #42AAFF;" text="Зарегистрироваться" textFill="WHITE">
+            <font>
+                <Font name="Lobster Regular" size="23.0"/>
+            </font>
+        </Button>
+        <PasswordField fx:id="passField" layoutX="252.0" layoutY="306.0" prefHeight="38.0" prefWidth="394.0"
+                       promptText="Придумайте пароль">
+            <font>
+                <Font size="17.0"/>
+            </font>
+        </PasswordField>
+        <TextField fx:id="nameField1" layoutX="253.0" layoutY="87.0" prefHeight="31.0" prefWidth="393.0"
+                   promptText="Введите имя">
+            <font>
+                <Font size="17.0"/>
+            </font>
+        </TextField>
+        <TextField fx:id="surnameField2" layoutX="252.0" layoutY="141.0" prefHeight="31.0" prefWidth="393.0"
+                   promptText="Введите фамилию">
+            <font>
+                <Font size="17.0"/>
+            </font>
+        </TextField>
+        <TextField fx:id="otchestvoField" layoutX="252.0" layoutY="194.0" prefHeight="31.0" prefWidth="393.0"
+                   promptText="Введите отчество">
+            <font>
+                <Font size="17.0"/>
+            </font>
+        </TextField>
+    </AnchorPane>
+    <Label layoutX="268.0" layoutY="14.0" prefHeight="66.0" prefWidth="362.0" text="Management System" textFill="WHITE">
+        <font>
+            <Font name="Lobster Regular" size="44.0"/>
+        </font>
+    </Label>
+    <Button fx:id="btnBack" layoutX="14.0" layoutY="14.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="34.0"
+            style="-fx-background-color: #42AAFF;" text="← " textFill="WHITE">
+        <font>
+          <Font name="Lobster Regular" size="13.0"/>
+        </font>
+    </Button>
+</AnchorPane>
